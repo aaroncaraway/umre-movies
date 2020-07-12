@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/umre-movies/static/css/main.050523cc.chunk.css",
+    "main.js": "/umre-movies/static/js/main.e4f4a0b2.chunk.js",
+    "main.js.map": "/umre-movies/static/js/main.e4f4a0b2.chunk.js.map",
+    "runtime-main.js": "/umre-movies/static/js/runtime-main.b659571b.js",
+    "runtime-main.js.map": "/umre-movies/static/js/runtime-main.b659571b.js.map",
+    "static/js/2.b46d3739.chunk.js": "/umre-movies/static/js/2.b46d3739.chunk.js",
+    "static/js/2.b46d3739.chunk.js.map": "/umre-movies/static/js/2.b46d3739.chunk.js.map",
+    "index.html": "/umre-movies/index.html",
+    "precache-manifest.2edf5f0271575d312b1b79225a6ebc7a.js": "/umre-movies/precache-manifest.2edf5f0271575d312b1b79225a6ebc7a.js",
+    "service-worker.js": "/umre-movies/service-worker.js",
+    "static/css/main.050523cc.chunk.css.map": "/umre-movies/static/css/main.050523cc.chunk.css.map",
+    "static/js/2.b46d3739.chunk.js.LICENSE.txt": "/umre-movies/static/js/2.b46d3739.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b659571b.js",
+    "static/js/2.b46d3739.chunk.js",
+    "static/css/main.050523cc.chunk.css",
+    "static/js/main.e4f4a0b2.chunk.js"
+  ]
+}

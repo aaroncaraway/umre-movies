@@ -1,0 +1,2 @@
+(this["webpackJsonpumre-movies"]=this["webpackJsonpumre-movies"]||[]).push([[0],{3:function(e,n,t){e.exports=t(9)},8:function(e,n,t){},9:function(e,n,t){"use strict";t.r(n);var r=t(0),a=t.n(r),c=t(2),o=t.n(c);t(8);var s=function(){return a.a.createElement("div",{className:"App"},a.a.createElement("h1",null,"PARTY TIME"))};o.a.render(a.a.createElement(s,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.e4f4a0b2.chunk.js.map
