@@ -7,6 +7,12 @@ import Typography from "@material-ui/core/Typography";
 
 import MovieList from "./MovieList";
 
+const defaultMovies = [
+  { id: 1, movie: "Starwars", favorite: false },
+  { id: 2, movie: "1917", favorite: true },
+  { id: 3, movie: "Frozen II", favorite: false },
+];
+
 const MovieApp = () => {
   return (
     <Paper
@@ -25,7 +31,7 @@ const MovieApp = () => {
       </AppBar>
       <Grid container justify="center" style={{ marginTop: "1rem" }}>
         <Grid item xs={11} md={8} lg={4}>
-          <MovieList />
+          <MovieList movies={defaultMovies} />
         </Grid>
       </Grid>
     </Paper>
