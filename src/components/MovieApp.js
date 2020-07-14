@@ -31,6 +31,7 @@ const MovieApp = () => {
       </AppBar>
       <Grid container justify="center" style={{ marginTop: "1rem" }}>
         <Grid item xs={11} md={8} lg={4}>
+          <Typography>My Movies</Typography>
           <MovieList movies={defaultMovies} />
         </Grid>
       </Grid>

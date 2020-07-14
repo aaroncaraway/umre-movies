@@ -9,7 +9,7 @@ import useToggle from "../hooks/useToggleState";
 // import EditTodoForm from "./EditTodoForm";
 // import { DispatchContext } from "./context/TodoContext";
 
-const Movie = ({ id, task, completed }) => {
+const Movie = ({ id, movie, favorite }) => {
   //   const dispatch = useContext(DispatchContext);
   const [isEditing, toggle] = useToggle(false);
   return (
@@ -17,13 +17,13 @@ const Movie = ({ id, task, completed }) => {
       <>
         <Checkbox
           tabIndex={-1}
-          checked={completed}
+          checked={favorite}
           //   onClick={() => dispatch({ type: "TOGGLE", id: id })}
         />
         <ListItemText
-          style={{ textDecoration: completed ? "line-through" : "none" }}
+          style={{ textDecoration: favorite ? "line-through" : "none" }}
         >
-          {task}
+          {movie}
         </ListItemText>
         <ListItemSecondaryAction>
           <IconButton

@@ -10,11 +10,9 @@ const MovieList = (props) => {
   if (props.movies.length)
     return (
       <Paper>
-        Movie List
         <List>
           {props.movies.map((movie, id) => (
             <>
-              {movie.movie}
               <Movie {...movie} key={movie.id} />
               {id < props.movies.length - 1 && <Divider />}
             </>
