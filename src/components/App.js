@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import MovieApp from "./MovieApp";
 
 function App() {
   return (
     <div className="App">
-      <h1>PARTY TIME</h1>
+      <MovieApp />
     </div>
   );
 }
