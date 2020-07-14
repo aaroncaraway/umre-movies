@@ -9,7 +9,7 @@ import useToggle from "../hooks/useToggleState";
 // import EditTodoForm from "./EditTodoForm";
 // import { DispatchContext } from "./context/TodoContext";
 
-const Movie = ({ id, movie, favorite }) => {
+const Movie = ({ id, title, favorite }) => {
   //   const dispatch = useContext(DispatchContext);
   const [isEditing, toggle] = useToggle(false);
   return (
@@ -23,7 +23,7 @@ const Movie = ({ id, movie, favorite }) => {
         <ListItemText
           style={{ textDecoration: favorite ? "line-through" : "none" }}
         >
-          {movie}
+          {title}
         </ListItemText>
         <ListItemSecondaryAction>
           <IconButton
