@@ -2,7 +2,7 @@ import React from "react";
 import Divider from "@material-ui/core/Divider";
 import List from "@material-ui/core/List";
 import Paper from "@material-ui/core/Paper";
-// import Todo from "./Todo";
+import Movie from "./Movie";
 // import { TodoContext } from "./context/TodoContext";
 
 const MovieList = (props) => {
@@ -15,7 +15,7 @@ const MovieList = (props) => {
           {props.movies.map((movie, id) => (
             <>
               {movie.movie}
-              {/* <Todo {...todo} key={todo.id} /> */}
+              <Movie {...movie} key={movie.id} />
               {id < props.movies.length - 1 && <Divider />}
             </>
           ))}
